@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background: grey;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 1.5rem;
+}
+
+.header a{
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.preview-section{
+    padding: 1.5rem;
+}
+
+.preview{
+    display: flex;
+    align-items: center;
+}
+.preview-image{
+    max-width: 12rem;
+}
