@@ -1,0 +1,24 @@
+{
+  "name": "myfirstproject",
+  "version": "1.0.0",
+  "description": "This is a full stack project I am building to get my hands dirty and try and learn more by using different technologies and frameworks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Twitnuman3/MyFirstProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Twitnuman3/MyFirstProject/issues"
+  },
+  "homepage": "https://github.com/Twitnuman3/MyFirstProject#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}

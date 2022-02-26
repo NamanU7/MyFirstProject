@@ -1,8 +1,12 @@
-const header = document.querySelector('header');
-console.log("Hello");
+const header = document.getElementById('header');
 
-const person = {
-    age: 18,
-    name: "bob",
-}
-console.log(person.age);
+header.innerHTML = `
+<header class="header">
+<div><a href="./index.html">MyBlog</a></div>
+<div>
+    <a href="./about.html">About</a>
+    <input type="text" id="search" name="search">
+    <button type="submit">Submit</button>
+</div>
+</header>
+`
